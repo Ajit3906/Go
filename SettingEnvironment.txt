@@ -1,0 +1,21 @@
+
+1: Go https://go.dev, download and install it
+2: Install GIT from here: https://git-scm.com
+3: Install IDE for Go:
+    VS Code: https://code.visualstudio.com/docs/languages/go
+    GoLand: https://www.jetbrains.com/go/
+
+4: Configure the following environment variables:
+    GOMODCACHE (Directory where all open source code
+            will be downloaded)
+    GOBIN (Global bin for Go executables) export GOMODCACHE=$HOME/gocode/pkg
+    export GOBIN=$GOPATH/bin
+     c:/go (default installation directory) GOROOT
+     d:/go/pkg
+     d:/go/bin
+5: git clone https://github.com/shijuvar/gokit.github
+
+go run . //To run all go files in VS Code
+go run main.go //To run individual file
+go build  // TO build project .exe file will be generated in C:\Users\ajpata\go\bin
+
